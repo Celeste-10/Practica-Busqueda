@@ -14,3 +14,4 @@ C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ej
 C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio4.resources
 C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio5.resources
 C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio6.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio2.resources
