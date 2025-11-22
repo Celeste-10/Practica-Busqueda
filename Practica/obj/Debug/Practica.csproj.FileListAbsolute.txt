@@ -1,0 +1,16 @@
+C:\Users\Lizbeth\source\repos\Practica\Practica\bin\Debug\Practica.exe.config
+C:\Users\Lizbeth\source\repos\Practica\Practica\bin\Debug\Practica.exe
+C:\Users\Lizbeth\source\repos\Practica\Practica\bin\Debug\Practica.pdb
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.csproj.AssemblyReference.cache
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio1.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Form1.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Properties.Resources.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.csproj.GenerateResource.cache
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.csproj.CoreCompileInputs.cache
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.exe
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.pdb
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.exe.config
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio3.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio4.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio5.resources
+C:\Users\Lizbeth\source\repos\Practica\Practica\obj\Debug\Practica.Ejercicios.Ejercicio6.resources
