@@ -82,6 +82,7 @@
     <Compile Include="Ejercicios\Ejercicio6.Designer.cs">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Estudiante.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
