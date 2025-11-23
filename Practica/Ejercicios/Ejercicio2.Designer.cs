@@ -108,6 +108,7 @@
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.lstLista);
             this.Name = "Ejercicio2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio2";
             this.Load += new System.EventHandler(this.Ejercicio2_Load);
             this.ResumeLayout(false);

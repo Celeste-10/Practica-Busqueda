@@ -16,5 +16,28 @@ namespace Practica.Ejercicios
         {
             InitializeComponent();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string texto = txtParrafo.Text.ToLower();
+            string palabra = txtPalabra.Text.ToLower();
+
+            int contador = 0;
+
+            for (int i = 0; i < texto.Length - palabra.Length + 1; i++)
+            {
+                int j;
+                for (j = 0; j < palabra.Length; j++)
+                {
+                    if (texto[i + j] != palabra[j])
+                        break;
+                }
+
+                if (j == palabra.Length)
+                    contador++;
+            }
+
+            lblResultado.Text = $"La palabra aparece {contador} veces.";
+        }
     }
 }
