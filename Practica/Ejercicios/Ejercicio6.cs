@@ -49,6 +49,12 @@ namespace Practica.Ejercicios
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNumero.Text))
+            {
+                MessageBox.Show("Por favor ingresa un número.", "Advertencia",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             int numero = int.Parse(txtNumero.Text);
 
             for (int i = 0; i < 10; i++)
@@ -64,6 +70,11 @@ namespace Practica.Ejercicios
             }
 
             lblResultado.Text = "Número NO encontrado.";
+        }
+
+        private void txtNumero_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -41,6 +41,12 @@ namespace Practica.Ejercicios
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNumero.Text))
+            {
+                MessageBox.Show("Por favor ingresa un número.", "Advertencia",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             int numero = int.Parse(txtNumero.Text);
             int inicio = 0;
             int fin = lista.Count - 1;

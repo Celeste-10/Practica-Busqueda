@@ -86,6 +86,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(248, 27);
             this.txtNumero.TabIndex = 4;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             // 
             // lblResultado
             // 

@@ -51,6 +51,12 @@ namespace Practica.Ejercicios
         }
         private void btnBuscarId_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtId.Text))
+            {
+                MessageBox.Show("Por favor ingresa un número.", "Advertencia",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             if (!int.TryParse(txtId.Text, out int idBuscado))
             {
                 lblResultadoId.Text = "Ingrese un ID válido.";
@@ -67,6 +73,12 @@ namespace Practica.Ejercicios
 
         private void btnBuscarNombre_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                MessageBox.Show("Por favor ingresa un número.", "Advertencia",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             string nombreBuscado = txtNombre.Text.Trim();
 
             if (string.IsNullOrEmpty(nombreBuscado))

@@ -19,6 +19,12 @@ namespace Practica.Ejercicios
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtPalabra.Text))
+            {
+                MessageBox.Show("Por favor ingresa un número.", "Advertencia",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
             string texto = txtParrafo.Text.ToLower();
             string palabra = txtPalabra.Text.ToLower();
 
